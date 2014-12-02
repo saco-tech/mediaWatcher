@@ -7,7 +7,12 @@
 #include <node.h>
 #include "MediaFinder.h"
 #include "Neptune.h"
+
+#ifdef WIN32
+#define sleep(x) ::Sleep(x)
+#else
 #include <unistd.h>
+#endif
 
 using namespace node;
 using namespace v8;
