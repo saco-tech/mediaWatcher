@@ -1,13 +1,9 @@
 {
   "name": "mediaWatcher",
   "version" : "0.0.1",
-  "scripts": {
-    "preinstall"  : "",
-    "install" : "./build.sh"
-  },
   "dependencies" :{
     "Platinum" : "git://github.com/saco-tech/Platinum.git"
   },
-  "main" : "./media_watcher.node",
+  "main" : "./build/Release/media_watcher.node",
   "private": true
 }
