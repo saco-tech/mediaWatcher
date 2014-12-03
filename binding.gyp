@@ -5,7 +5,7 @@
       "sources": [ "media_watcher.cc" ],
       'link_settings': {
         'libraries': [
-              '../libZlib.a','../libMicro.a','../libPlatinum.a','../libNeptune.a','-lpthread','../libPltMediaRenderer.a','../libPltMediaConnect.a','../libPltMediaServer.a','../libaxTLS.a'
+              '../libZlib.a','../libMicro.a','../libPlatinum.a','../libNeptune.a','-lpthread','-fPIC','../libPltMediaRenderer.a','../libPltMediaConnect.a','../libPltMediaServer.a','../libaxTLS.a'
           ]
       },
       'include_dirs': [
